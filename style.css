@@ -24,11 +24,17 @@
 form{
     padding: 20px;
 }
-#plus-btn{
-    padding: 6px 13px;
-    border: 2px solid black;
+#plus-btn,#delete-btn{
+    padding: 8px 13px;
+    border: 0;
     border-radius: 5px;
+    color: #ffffff;
+}
+#plus-btn{
     background-color: cadetblue;
+}
+#delete-btn{
+    background-color: rgb(218, 14, 55);
 }
 #submit-btn{
     background-color: rgba(0, 128, 0, 0.836);
